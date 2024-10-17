@@ -9,7 +9,7 @@
 //----- SPI2 parameter configuration ----------------------------------------
 
 // SPI включаем только передача ( MOSI SCK )
-// настройка SPI, скорость максимальная, 1 Line (TX only), Polarity High, Phase 2Edge:
+// настройка SPI, скорость максимальная, 1 Line (TX only), Polarity High, Phase 1Edge:
 // частота SPI должна быть меньше 50 МГц
 
   hspi2.Instance = SPI2;
